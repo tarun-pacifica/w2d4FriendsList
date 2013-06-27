@@ -1,0 +1,46 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+body{
+/*background-color: black;
+*/color: black;
+font-family: 'Raleway', sans-serif;
+font-size: 100%;
+}
+.h1{
+align: center;
+}
+
+body {
+	background: url(/images/Friendssketch.jpg) no-repeat center center fixed;
+	background-size: 60%;
+}
+.resize-fill-and-clip{ 
+  /* Resize to fill and retain aspect ratio.
+     Will cause clipping if aspect ratio of box is different from image. */ 
+  background-size: cover;
+}
+.brand {
+	background-color: #B5A24C;
+	color: white;
+	float: center;
+	margin: 00px 0px 20px 0px;
+}
+.JK {
+	background-color: #1A7570;
+	color: white;
+	float: right;
+	margin: 0px 0px 0px 0px;
+}
+.KL {
+	background-color: #A83696;
+	color: white;
+	float: right;
+	margin: 0px 0px 0px 0px;
+}
+.title {
+	float: left;
+	margin: 40px 20px 100px 20px;
+	text-align: center;
+}
+a: visited {color: white;
+}
