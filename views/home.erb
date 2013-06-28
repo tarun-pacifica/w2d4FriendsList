@@ -5,13 +5,18 @@
 		<a class="btn btn-primary" href="#">Home </a>
 		<a class="btn btn-info" href="#"> Make friends</a>
 		<a class="btn btn-danger" href="#"> friends</a> -->
-<div class="btn-group btn-group-vertical">
-<button class="brand"><a href="/home">Home</a></button>
-<button class="JK"><a href="/addfriends">Add a friend</a></button>
-<button class="KL"><a href="viewfriends">View friends</a></button>
-</ul>
-</div> 
 
+<div>
+	<form action="/add" method="post">
+  <input type="sign" name="name" placeholder="Friend's Name">
+  <textarea class="longinput" name="description" placeholder="Friend Description"></textarea>
+  <p class="input2"><input type="sign" name="interests" placeholder="Interests and Hobbies">
+  <input type="text" name="age" placeholder="Age">
+  <input type="sign" name="gender" placeholder="Gender M/F"></p>
+  <button class="JK"><a href="/add">Add a friend</a></button>
+</form>
+</div>
+<p class="info">Manage your Friends. Divide and Conquer!<%= @addtasks %></p>
 </div>
 <!-- <i class="icon-search"></i>
 	<div class="row">

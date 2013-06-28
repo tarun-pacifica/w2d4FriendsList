@@ -1,0 +1,10 @@
+<form action="/add" method="post">
+  <input type="sign" name="taskname" placeholder="Task Name">
+  <textarea class="longinput" name="description" placeholder="Describe Task"></textarea>
+  <p class="input2"><input type="sign" name="deadline" placeholder="Deadline YYYY-MM-DD">
+  <input type="sign" name="initiator" placeholder="Initiator">
+  <input type="sign" name="actors" placeholder="Actors"></p>
+  <button>Add Tasks</button>
+</form>
+
+<p class="info">Tasks Manager:<%= @addtasks %></p>
